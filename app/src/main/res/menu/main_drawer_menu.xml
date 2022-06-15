@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item android:id="@+id/nav_stock"
+        android:icon="@drawable/list_24"
+        android:title="List"/>
+    <item android:id="@+id/nav_add"
+        android:icon="@drawable/ic_baseline_add_circle_outline_24"
+        android:title="Add"/>
+    <item android:id="@+id/nav_medicine"
+        android:icon="@drawable/medicine"
+        android:title="Medicine"/>
+    <item android:id="@+id/nav_vaccine"
+        android:icon="@drawable/vaccine"
+        android:title="Vaccine"/>
+    <item android:id="@+id/nav_surgical"
+        android:icon="@drawable/ic_baseline_masks_24"
+        android:title="Surgical"/>
+    <item android:id="@+id/nav_logout"
+        android:icon="@drawable/logout"
+        android:title="Log out"/>
+</group>
+</menu>

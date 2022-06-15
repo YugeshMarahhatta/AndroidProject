@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@drawable/gradient_background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:shadowColor="@color/purple_200"
+            android:text="MARAHATTA PHARMACY"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="180dp"
+            android:background="@drawable/logo"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="100dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_marginTop="270dp"
+            android:layout_marginLeft="50dp"
+            android:hint="Username"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:drawablePadding="10dp"
+            android:textColor="@color/teal_200"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="50dp"
+            android:hint="Password"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="10dp"
+            android:inputType="textPassword"
+            android:textColor="@color/teal_200"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log in "
+            android:textSize="25sp"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="140dp"
+            android:padding="2dp"
+            android:backgroundTint="@color/teal_700"
+            android:shadowRadius="@integer/material_motion_duration_long_1"
+            android:drawableLeft="@drawable/ic_baseline_login_24"
+            android:id="@+id/loginbtn"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have account ?"
+            android:textSize="21sp"
+            android:layout_marginTop="550dp"
+            android:layout_marginLeft="40sp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Sign Up "
+            android:textSize="20sp"
+            android:padding="2dp"
+            android:background="@drawable/roundbtn"
+            android:id="@+id/signupbtn"
+            android:layout_marginTop="553dp"
+            android:layout_marginLeft="5dp"
+            android:shadowRadius="@integer/material_motion_duration_short_1"
+            />
+    </LinearLayout>
+  </androidx.constraintlayout.widget.ConstraintLayout>
